@@ -7,6 +7,8 @@ import {
   TransactionsContainer,
   PriceHighlight,
 } from "./styles";
+import { formatDistanceToNow } from "date-fns";
+import { ptBR } from "date-fns/locale";
 
 interface Transactions {
   id: number;
@@ -41,7 +43,7 @@ export function Transactions() {
 
         <TransactionsTable>
           <tbody>
-            {transactions.map(transaction => {
+            {transactions.map((transaction) => {
               return (
                 <tr key={transaction.id}>
                   <td width="50%">{transaction.description}</td>
@@ -51,7 +53,12 @@ export function Transactions() {
                     </PriceHighlight>
                   </td>
                   <td>{transaction.category}</td>
-                  <td>{transaction.createdAt}</td>
+                  <td>
+                    {formatDistanceToNow(new Date(transaction.createdAt), {
+                      addSuffix: true,
+                      locale: ptBR,
+                    })}
+                  </td>
                 </tr>
               );
             })}
