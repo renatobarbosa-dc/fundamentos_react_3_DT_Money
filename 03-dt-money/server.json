@@ -15,6 +15,14 @@
         "category": "Lazer",
         "price": 2000,
         "createdAt": "2026-02-02T15:15:45.300Z"
+      },
+      {
+        "id": 3,
+        "description": "Ifood",
+        "type": "outcome",
+        "category": "Alimentação",
+        "price": 12,
+        "createdAt": "2026-02-04T10:45:45.300Z"
       }
   ]
 }
