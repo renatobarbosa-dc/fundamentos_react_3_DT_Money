@@ -9,20 +9,52 @@
       "createdAt": "2026-02-02T15:18:45.300Z"
     },
     {
-        "id": 2,
-        "description": "Violão",
-        "type": "outcome",
-        "category": "Lazer",
-        "price": 2000,
-        "createdAt": "2026-02-02T15:15:45.300Z"
-      },
-      {
-        "id": 3,
-        "description": "Ifood",
-        "type": "outcome",
-        "category": "Alimentação",
-        "price": 12,
-        "createdAt": "2026-02-04T10:45:45.300Z"
-      }
+      "id": 2,
+      "description": "Violão",
+      "type": "outcome",
+      "category": "Lazer",
+      "price": 2000,
+      "createdAt": "2026-02-02T15:15:45.300Z"
+    },
+    {
+      "id": 3,
+      "description": "Ifood",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 12,
+      "createdAt": "2026-02-04T10:45:45.300Z"
+    },
+    {
+      "description": "Interface",
+      "price": 2500,
+      "category": "Software",
+      "type": "income",
+      "createdAt": "2026-02-09T16:43:54.364Z",
+      "id": 4
+    },
+    {
+      "description": "x salada",
+      "price": 10,
+      "category": "alimentação",
+      "type": "outcome",
+      "createdAt": "2026-02-09T16:46:54.705Z",
+      "id": 5
+    },
+    {
+      "description": "Yogurte ",
+      "price": 5,
+      "category": "alimentação",
+      "type": "outcome",
+      "createdAt": "2026-02-09T17:04:18.920Z",
+      "id": 6
+    },
+    {
+      "description": "Chocolate Alpino",
+      "price": 12,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2026-02-09T17:05:02.862Z",
+      "id": 7
+    }
   ]
 }
