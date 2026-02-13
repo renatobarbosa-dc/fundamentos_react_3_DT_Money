@@ -55,6 +55,22 @@
       "type": "outcome",
       "createdAt": "2026-02-09T17:05:02.862Z",
       "id": 7
+    },
+    {
+      "description": "Loteria",
+      "price": 2500,
+      "category": "Apostas",
+      "type": "income",
+      "createdAt": "2026-02-12T15:10:14.186Z",
+      "id": 8
+    },
+    {
+      "description": "Presente pra duda",
+      "price": 1000,
+      "category": "presente",
+      "type": "outcome",
+      "createdAt": "2026-02-13T01:47:28.559Z",
+      "id": 9
     }
   ]
 }
